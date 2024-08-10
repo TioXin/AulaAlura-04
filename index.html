@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca do castelo magico</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-passo0.jpg" alt="">
+            <p>Recentemente ouvi rumores sobre um castelo mágico que fica nas profundezas de uma floresta mística, então hoje eu decidi ir procura-lá, por onde devo começar?</p>
+            <button class="btn-proximo" data-proximo="1">Aether
+            <button class="btn-proximo" data-proximo="2">Twilight Forest</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Na ida para o Aether você acaba encontrando um portal e diante dele sente muito medo. O que ira fazer..</p>
+            <button class="btn-proximo" data-proximo="3">Procurar dentro do portal</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para a casa na cidade</button>
+        </div>
+        <div class="passo" id="passo-2">
+        <p>Na sua ida a Twilight você encontra uma igreja antiga, também há um litoral próximo. Oque ira fazer...</p>
+            <button class="btn-proximo" data-proximo="5">Investigar as igrejas antigas</button>
+            <button class="btn-proximo" data-proximo="6">Explorar as praias próximas</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Ao se aproximar do portal você é puxado e levado para uma floresta mágica, em frente há uma trilha..</p>
+            <button class="btn-proximo" data-proximo="7">Seguir a trilha</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="cenario-passo4-voltar-casa.jpg" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Você decide que a aventura é grande demais e volta para casa, mas sempre se pergunta o que teria
+                encontrado ou o que teria descoberto.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Nas igrejas antigas você descobre um tipo de mapa que informa uma trilha para seguir</p>
+            <button class="btn-proximo" data-proximo="7">Seguir as instruções do mapa</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Explorando as praias, você encontra uma caverna escondida, mas ela leva a um beco sem saída.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e explorar as igrejas</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Conforme você segue a trilha você encontra uma bifurcação</p>
+            <button class="btn-proximo" data-proximo="9">Seguir pelo caminho à esquerda</button>
+            <button class="btn-proximo" data-proximo="10">Seguir pelo caminho à direita</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>De volta às igrejas, você finalmente encontra uma informação sobre o castelo antigo. Agora, para a investigação!</p>
+            <button class="btn-proximo" data-proximo="7">Investigar as pistas</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>O caminho à esquerda leva você a uma cachoeira escondida com inscrições antigas que revelam a entrada do
+                castelo perdido.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar o castelo perdido</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>O caminho à direita leva você a um lugar sombrio, ao ouvir sons de possiveis animais você deduz que ali não há pistas do castelo perdida
+                </p>
+            <button class="btn-proximo" data-proximo="12">Retornar e tentar o outro rio</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="cenario-passo11-castelo-magico.jpg" alt="Castelo">
+            <p>ao encontrar o castelo perdido você recebe uma surpresa, um mordomo que te aguardava e ansiosamente te mostrou das riquezas que havia naquele castelo, mas quando você revelou sua intenção de roubar ele se mostrou desapontado e logo sumiu no ar.</p>
+            <button class="btn-proximo" data-proximo="13">Demonstrar humildade</button>
+            
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Retornando e escolhendo o rio à esquerda, você finalmente encontra a cachoeira escondida e as inscrições
+                que levam ao castelo perdida.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar o castelo perdido</button>
+        </div>
+
+        <div class="passo" id="passo-13">
+            <p>Você demonstra humildade e recebe o real tesouro que lá havia.</p>
+            <img src="cenario-passo13.jpg" alt="Dinheiros">
+        </div>
+    
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
